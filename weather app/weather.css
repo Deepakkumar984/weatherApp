@@ -1,0 +1,42 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+main {
+    background: url(Calm-Wallpaper-Free-Download.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#box {
+    height: 3rem;
+    width: 15rem;
+    /* background-color: white; */
+    text-align: center;
+}
+
+#weather {
+    height: auto;
+    width: auto;
+    display: flex;
+    color: #30336b;
+}
+
+input {
+    /* font-size: 30px; */
+    font-size: large;
+    height: 40px;
+    width: 15rem;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+}

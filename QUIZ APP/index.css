@@ -1,0 +1,45 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1B1464;
+    overflow: hidden;
+    justify-content: center;
+    margin-top: 200px;
+    display: flex;
+    font-size: larger;
+}
+
+#container {
+    background-color: rgb(210, 243, 252);
+    width: 600px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#heading {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 3rem;
+}
+
+ul li {
+    font-size: 20px;
+    padding: 0%;
+    /* padding-bottom: 10px; */
+}
+
+#button {
+    text-align: center;
+    color: white;
+    background-color: #006266;
+    width: 100%;
+    font-size: larger;
+    border: none;
+}
